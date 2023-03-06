@@ -3,7 +3,7 @@
 
   :root {
     --card-width: 200px;
-    --card-height: 300px;
+    --card-height: 200px;
     --card-transition-duration: 800ms;
     --card-transition-easing: ease;
   }
@@ -362,6 +362,19 @@
   .support a:hover {
     transform: scale(1.1);
   }
+  .developer-contact{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: flex;}
+  .developer-contact a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.8rem;
+    backface-visibility: hidden;
+    transition: all 150ms ease;
+  }
   
 
 
@@ -369,7 +382,7 @@
 
 /* Responsive for mobile devices (hihhii) */
 
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 800px) {
 
   :root {
     --card-width: 400px;
@@ -743,5 +756,18 @@
 
   .support a:hover {
     transform: scale(1.1);
+  }
+  .developer-contact{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: flex;}
+  .developer-contact a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.8rem;
+    backface-visibility: hidden;
+    transition: all 150ms ease;
   }
 }
